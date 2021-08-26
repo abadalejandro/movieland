@@ -1,14 +1,11 @@
 const API_KEY = '20dac387';
-// http://www.omdbapi.com/?apikey=20dac387?i=tt0137523
-
 
 export function getMovies(titulo) {
     return function (dispatch) {
 
         return fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${titulo}`)
             .then(response => response.json())
-            .then(json => {
-                // console.log('movies: ',json);
+            .then(json => {                
                 dispatch({
                     type: "GET_MOVIES",
                     payload: json
@@ -17,12 +14,10 @@ export function getMovies(titulo) {
     };
 }
 
-// TODO
 export function getMovieDetail(idMovie) {
     return function (dispatch) {
         const url = `https://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`;
-        // console.log(`url: `, url);
-        
+             
         return fetch(url)
             .then(response => response.json())
             .then(json => {
