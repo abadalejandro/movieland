@@ -5,7 +5,7 @@ const API_KEY = '20dac387';
 export function getMovies(titulo) {
     return function (dispatch) {
 
-        return fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${titulo}`)
+        return fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${titulo}`)
             .then(response => response.json())
             .then(json => {
                 // console.log('movies: ',json);
@@ -20,7 +20,7 @@ export function getMovies(titulo) {
 // TODO
 export function getMovieDetail(idMovie) {
     return function (dispatch) {
-        const url = `http://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`;
+        const url = `https://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`;
         // console.log(`url: `, url);
         
         return fetch(url)
