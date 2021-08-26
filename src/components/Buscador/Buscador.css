@@ -1,0 +1,31 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+input {
+    max-width: 300px;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+
+.label {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100px;
+}
+

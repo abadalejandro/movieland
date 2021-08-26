@@ -1,0 +1,31 @@
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80%;
+  min-height: 80vh;
+  margin: 2em auto;
+  justify-content: center;
+}
+
+.movie-container img{
+  border: .5px solid lightgray;
+}
+
+.movie-child {
+  width: 480px;
+  min-width: 350px;
+  min-height: 10em;
+  margin: 0em;
+  background-color: #ffc10791;
+}
+
+.movie-info{
+  padding:1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .movie-container {
+    margin: 0 auto;
+  }
+}
