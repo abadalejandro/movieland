@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/movieland/static/css/main.c76beeac.chunk.css",
-    "main.js": "/movieland/static/js/main.14ace9ff.chunk.js",
-    "main.js.map": "/movieland/static/js/main.14ace9ff.chunk.js.map",
+    "main.js": "/movieland/static/js/main.ce93d9e9.chunk.js",
+    "main.js.map": "/movieland/static/js/main.ce93d9e9.chunk.js.map",
     "runtime-main.js": "/movieland/static/js/runtime-main.952c3a80.js",
     "runtime-main.js.map": "/movieland/static/js/runtime-main.952c3a80.js.map",
-    "static/js/2.9f37f0de.chunk.js": "/movieland/static/js/2.9f37f0de.chunk.js",
-    "static/js/2.9f37f0de.chunk.js.map": "/movieland/static/js/2.9f37f0de.chunk.js.map",
+    "static/js/2.6068f530.chunk.js": "/movieland/static/js/2.6068f530.chunk.js",
+    "static/js/2.6068f530.chunk.js.map": "/movieland/static/js/2.6068f530.chunk.js.map",
     "index.html": "/movieland/index.html",
-    "precache-manifest.ed9a3640b55554dc1239a70777bf6428.js": "/movieland/precache-manifest.ed9a3640b55554dc1239a70777bf6428.js",
+    "precache-manifest.39c5c5946c2721f0784d21ab5a9fb9b8.js": "/movieland/precache-manifest.39c5c5946c2721f0784d21ab5a9fb9b8.js",
     "service-worker.js": "/movieland/service-worker.js",
     "static/css/main.c76beeac.chunk.css.map": "/movieland/static/css/main.c76beeac.chunk.css.map",
-    "static/js/2.9f37f0de.chunk.js.LICENSE.txt": "/movieland/static/js/2.9f37f0de.chunk.js.LICENSE.txt",
+    "static/js/2.6068f530.chunk.js.LICENSE.txt": "/movieland/static/js/2.6068f530.chunk.js.LICENSE.txt",
     "static/media/Movie-Icon-1-460x406.png": "/movieland/static/media/Movie-Icon-1-460x406.40c17060.png"
   },
   "entrypoints": [
     "static/js/runtime-main.952c3a80.js",
-    "static/js/2.9f37f0de.chunk.js",
+    "static/js/2.6068f530.chunk.js",
     "static/css/main.c76beeac.chunk.css",
-    "static/js/main.14ace9ff.chunk.js"
+    "static/js/main.ce93d9e9.chunk.js"
   ]
 }
