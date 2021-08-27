@@ -28,7 +28,6 @@ class ConnectedForm extends Component {
     this.setState({ title: "" });
   }
   render() {
-    console.log('form')
     const { title } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
